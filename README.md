@@ -1,46 +1,16 @@
-# Clean Arquitect App with Flutter
-Flutter Base to Clean arquitect 
+# clean_core
 
-Clean Architecture - Flutter
+A new Flutter project.
 
-Welcome in this boilerplate was built based on the best architecture practices, in which the following were taken into account:
+## Getting Started
 
-    Modularization by layers and features
-    Application of the Principles of Clean Architecture
+This project is a starting point for a Flutter application.
 
-Languages, libraries and tools used
+A few resources to get you started if this is your first Flutter project:
 
-    Dart
-    Kotlin
-    Swift
-    Flutter Framework
-    Provider
-    Get-it
-    Dio
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Architecture
-
-The architecture of the project follows the principles of Clean Architecture. Here's how the sample project implements it:
-
-architecture
-
-data: Layer that contains the access point to the external data layers and is used to obtain data from multiple sources (cache and network).
-
-domain: Layer that contains the UseCase instances used to retrieve data from the data layer and pass it to the presentation layer.
-
-ui: Layer that contains functions for managing the user UI.
-
-Dependency Injection with Get-it
-
-
-Note:
-This is a Core base model in which projects must be added in the future as UI Modules where their logic must be independent, only in cases of shared logic the core must be used.
-
-
-<br />
-
-<h3 align="center">Architecture Proposal</h3>
-
-<br />
-
-<img src="./assets/images/clean-architecture.webp" style="display: block; margin-left: auto; margin-right: auto; width: 100%;"/>
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

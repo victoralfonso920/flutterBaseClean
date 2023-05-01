@@ -1,3 +1,4 @@
+
 class ResponseClassify<T> {
   Status status;
   T? data;
@@ -14,5 +15,5 @@ class ResponseClassify<T> {
     return "Status : $status \n Message :  \n Data : $data Error : $error";
   }
 }
-
+// ignore_for_file: constant_identifier_names
 enum Status { LOADING, COMPLETED, ERROR }

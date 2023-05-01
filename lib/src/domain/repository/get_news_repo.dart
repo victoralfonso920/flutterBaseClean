@@ -1,4 +1,4 @@
-import '../../data/remote/dto/news/news_model.dart';
+import '../../data/remote/dto/news_model.dart';
 
 abstract class GetNewsRepository {
   Future<NewsModelDto> getNews();

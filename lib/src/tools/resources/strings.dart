@@ -1,1 +1,0 @@
-const errorListArticles = "There is not any articles now.";
