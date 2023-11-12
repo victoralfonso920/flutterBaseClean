@@ -45,7 +45,6 @@ This is a Core base model in which projects must be added in the future as UI Mo
 
 <img src="./assets/images/clean-architecture.webp" style="display: block; margin-left: auto; margin-right: auto; width: 100%;"/>
 
-# news_app_clean_architecture
 
 A new Flutter project.
 
