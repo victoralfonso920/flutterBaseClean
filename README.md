@@ -33,19 +33,6 @@ ui: Layer that contains functions for managing the user UI.
 Dependency Injection with Get-it
 
 
-Note:
-This is a Core base model in which projects must be added in the future as UI Modules where their logic must be independent, only in cases of shared logic the core must be used.
-
-
-<br />
-
-<h3 align="center">Architecture Proposal</h3>
-
-<br />
-
-<img src="./assets/images/clean-architecture.webp" style="display: block; margin-left: auto; margin-right: auto; width: 100%;"/>
-
-
 A new Flutter project.
 
 ## Getting Started
