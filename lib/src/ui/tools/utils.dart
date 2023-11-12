@@ -1,7 +1,7 @@
-import 'package:clean_core/src/core/resources/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../../core/tools/const.dart';
+import '../../config/resources/colors.dart';
+import '../../config/tools/const.dart';
 
 TextStyle getCustomFontTextStyle(
     {colorText = Colors.blueAccent,

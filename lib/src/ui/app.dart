@@ -7,10 +7,10 @@ import 'package:flutter_displaymode/flutter_displaymode.dart';
 import 'package:responsive_framework/breakpoint.dart';
 import 'package:responsive_framework/responsive_breakpoints.dart';
 
-import '../core/di/service_locator.dart';
-import '../core/routes/navigation_service.dart';
-import '../core/routes/routes.dart';
-import '../core/tools/const.dart';
+import '../config/di/service_locator.dart';
+import '../config/routes/navigation_service.dart';
+import '../config/routes/routes.dart';
+import '../config/tools/const.dart';
 
 class App extends StatefulWidget {
   const App({Key? key}) : super(key: key);

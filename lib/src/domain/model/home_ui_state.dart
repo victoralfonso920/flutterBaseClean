@@ -1,11 +1,8 @@
 import 'package:equatable/equatable.dart';
 
-import '../../data/remote/dto/news_model.dart';
+import '../../data/models/article.dart';
 
 class HomeUiState extends Equatable {
-  final bool isLoading;
-  final List<Article>? news;
-  final bool isError;
 
   const HomeUiState({
     this.isLoading = false,
@@ -13,8 +10,14 @@ class HomeUiState extends Equatable {
     this.isError = false,
   });
 
-  copyWith({
-    List<Article>? news,
+  factory HomeUiState.createEmptyInstance() =>
+      const HomeUiState(isLoading: true, isError: false, news: []);
+  final bool isLoading;
+  final List<ArticleModel>? news;
+  final bool isError;
+
+  HomeUiState copyWith({
+    List<ArticleModel>? news,
     bool? isError,
     bool? isLoading
   }) => HomeUiState(
@@ -22,9 +25,6 @@ class HomeUiState extends Equatable {
       isError: isError ?? this.isError,
       isLoading: isLoading ?? this.isLoading
   );
-
-  factory HomeUiState.createEmptyInstance() =>
-      const HomeUiState(isLoading: true, isError: false, news: []);
 
   @override
   List<Object?> get props => [

@@ -1,1 +1,0 @@
-const String suffixGetNews = 'top-headlines?language=en&page=1&apiKey=';
