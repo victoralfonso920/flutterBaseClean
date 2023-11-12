@@ -1,5 +1,5 @@
-# Clean Arquitect App with Flutter
-Flutter Base to Clean arquitect 
+# Clean Architecture App with Flutter
+Flutter Base to Clean architecture 
 
 Clean Architecture - Flutter
 
@@ -14,7 +14,7 @@ Languages, libraries and tools used
     Kotlin
     Swift
     Flutter Framework
-    Provider
+    Bloc
     Get-it
     Dio
 
